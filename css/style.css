@@ -1,0 +1,69 @@
+body {
+  background-color: mistyrose;
+
+  /*background-image: url(../Images/mainbackground_.jpg);*/
+  background-image: url(../Images/sakura3.gif);
+  /*background-image: url(https://pa1.narvii.com/6951/75b64d70dc386dfa5a1c86a85f260cd39817fe62r1-200-200_hq.gif);*/
+  background-repeat: repeat-x;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  right: 10px;
+}
+
+.logo-container {
+  background: #101010;
+  height: 120%;
+
+  color: white;
+  width: auto;
+}
+
+.navigation {
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  margin: 0%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  background-color: #101010;
+}
+
+.navigation a li {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 15px;
+  color: white;
+  padding: 5px 15px;
+  margin: 10;
+  width: 100px;
+  float: right;
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: #101010;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  float: left;
+  margin-right: 0px; /* Регулируйте величину отступа в зависимости от ваших предпочтений */
+}
+
+.text {
+  overflow: hidden; /* Clear float */
+  margin-left: 10%;
+}
